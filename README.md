@@ -1,4 +1,5 @@
 # eslint-config-plain-typescript
+[![npm version](https://badge.fury.io/js/eslint-config-plain-typescript.svg)](https://badge.fury.io/js/eslint-config-plain-typescript)
 
 Plain config without any rules that makes ESLint working with typescript
 
