@@ -1,0 +1,12 @@
+{
+  "extends": "./index.js",
+  "overrides": {
+    files: ["**/*.ts", "**/*.tsx"],
+    "rules": {
+      "@typescript-eslint/no-unused-vars": "error"
+    }
+  },
+  "rules": {
+    "no-unused-vars": "error"
+  }
+}
