@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-plain-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plain config without any rules that makes typescript working with ESLint",
   "repository": "https://github.com/RIP21/eslint-config-plain-typescript",
   "license": "MIT",
@@ -12,13 +12,13 @@
   ],
   "devDependencies": {
     "eslint": "^5.15.3",
-    "typescript": "^3.3.3333",
-    "np": "^4.0.2"
+    "np": "^4.0.2",
+    "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "babel-eslint": "10.0.1",
+    "@typescript-eslint/eslint-plugin": "1.4.2",
     "@typescript-eslint/parser": "^1.4.2",
-    "@typescript-eslint/eslint-plugin": "1.4.2"
+    "babel-eslint": "10.0.1"
   },
   "peerDependencies": {
     "eslint": ">=5.15",
