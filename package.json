@@ -12,7 +12,8 @@
   ],
   "devDependencies": {
     "eslint": "^5.15.3",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.3.3333",
+    "np": "^4.0.2"
   },
   "dependencies": {
     "babel-eslint": "10.0.1",
@@ -24,6 +25,8 @@
     "typescript": "^>=3"
   },
   "scripts": {
-    "test": "eslint checkme.ts && exit 1 || exit 0"
+    "test": "eslint checkme.ts && exit 1 || exit 0",
+    "prepublish": "yarn test",
+    "release": "np"
   }
 }
