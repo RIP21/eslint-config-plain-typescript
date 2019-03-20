@@ -16,8 +16,8 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "1.4.2",
-    "@typescript-eslint/parser": "^1.4.2",
+    "@typescript-eslint/eslint-plugin": "1.5.0",
+    "@typescript-eslint/parser": "1.5.0",
     "babel-eslint": "10.0.1"
   },
   "peerDependencies": {
@@ -26,7 +26,6 @@
   },
   "scripts": {
     "test": "eslint checkme.ts && exit 1 || exit 0",
-    "prepublish": "yarn test",
     "release": "np"
   }
 }
