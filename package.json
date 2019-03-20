@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-plain-typescript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plain config without any rules that makes typescript working with ESLint",
   "repository": "https://github.com/RIP21/eslint-config-plain-typescript",
   "license": "MIT",
